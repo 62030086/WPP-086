@@ -6,6 +6,7 @@
     <link rel="icon" href="./asset/favicon.ico">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/clock.css">
 </head>
 <body>
     <header>
@@ -16,8 +17,15 @@
         </nav>
     </header>
     <main>
-        <div class="main1">
-
+        <div class="main1" id="main1">
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+            <a data-scroll href="#main2" class="btn_down"></a>
+        </div>
+        <div class="main2" id="main2">
+            <img src="./asset/console.png" alt="game" class="icon">
+            <h2>MENJA GAME</h2>
+            <h3>Cilck button to play game</h3>
+            <a class="btn_next" href="./game.html"></a>
         </div>
     </main>  
     <footer>
@@ -28,5 +36,6 @@
             <h3>king mongkut's institute of technology ladkrabang</h3>
         </div>
     </footer>
-    <script src="./js/home.js"></script>
+    <script src="./js/content.js"></script>
+    <script src="./js/clock.js"></script>
 </body>
