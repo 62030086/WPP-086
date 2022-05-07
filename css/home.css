@@ -1,15 +1,17 @@
 /*ปรับภายใน*/
 
 h1{
-    font-size: 7vh;
+    font-size: 6vh;
 }
 h2{
-    font-size: 5vh;
+    font-size: 4vh;
 }
 h3{
     font-size: 3vh;
 }
-
+p{
+    font-size: 1.5vh;
+}
 /*ปรับส่วนห้ว*/
 
 /*ปรับส่วนกลาง*/
@@ -29,6 +31,8 @@ h3{
 .home_content{
     display: flex;
     flex-direction: row;
+    margin: 1%;
+    align-items: center
 }
 .box_home_content{
     background-color: ;
