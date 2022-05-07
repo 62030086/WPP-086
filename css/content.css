@@ -3,5 +3,12 @@
 /*ปรับส่วนห้ว*/
 
 /*ปรับส่วนกลาง*/
-
+.main1{
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.main2{
+    flex-direction: column;
+    text-transform: uppercase;
+}
 /*ปรับส่วนท้าย*/
