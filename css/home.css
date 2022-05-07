@@ -1,98 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
-body{
-    margin: unset;
-    padding: unset;
-    font-family: 'Prompt', sans-serif;
-    background-image: url("../asset/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-header{
-    margin: unset;
-    padding: unset;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 9vh;
-    width: 100%;
-    background-color: rgb(87, 123, 193, 0.4);
-    -webkit-backdrop-filter: blur(1px);
-    backdrop-filter: blur(1px);
-}
-nav{
-    display: flex;
-    flex-direction: row;
-}
-nav div{
-    color: rgb(234,168,12);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    height: 9vh;
-    width: 100pt;
-}
-main{
-    display: flex;
-    flex-direction: column;
-}
-.H1{
-    display: flex;
-    flex-direction: column;
-    height: 91vh;
-    width: 100%;
+/*ปรับภายใน*/
 
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-
-    background-color:rgba(87, 123, 193, 0.4);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    color: rgb(255, 255, 255);
-    letter-spacing: 9px;
-}
-.H2{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(87, 123, 193, 0.4);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-}
-.H3{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(87, 123, 193, 0.4);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-}
 h1{
-    font-size: 50pt;
+    font-size: 10vw;
 }
 h2{
-    font-size: 25pt;
+    font-size: 7vw;
 }
-footer{
+h3{
+    font-size: 5vw;
+}
+
+/*ปรับส่วนห้ว*/
+
+/*ปรับส่วนกลาง*/
+
+.main1{
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 9pt;
+}
+.main2{
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+}
+.home_content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 39vh;
 }
-footer div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+.box_home_content{
+    background-color: ;
 }
+/*ปรับส่วนท้าย*/

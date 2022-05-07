@@ -1,0 +1,19 @@
+/*ปรับภายใน*/
+
+/*ปรับส่วนห้ว*/
+
+
+/*ปรับส่วนกลาง*/
+.main{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.photo{
+    height: 50%;
+    width: auto;
+}
+.text_box{
+    padding-left: 5%;
+}
+
+/*ปรับส่วนท้าย*/

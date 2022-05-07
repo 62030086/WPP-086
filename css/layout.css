@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+/*ปรับภายใน*/
+body{
+    margin: unset;
+    padding: unset;
+    font-family: 'Prompt', sans-serif;
+    background-image: url("../asset/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*ห้ว*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+    background-color:rgba(8, 50, 72, 0.4);
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color:rgb(219, 168, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 9vh;
+    width: 100pt;
+}
+nav a:hover {
+    background: rgb(219, 168, 88);
+    color: rgb(3, 27, 56);
+}
+.sticky{
+    background: rgba(3, 27, 56, 1);
+    position: fixed; 
+    top: 0;
+}
+
+/*กลาง*/
+main{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(8, 50, 72, 0.4);
+    color: rgb(255, 255, 255);
+    padding: 5%;
+}
+.main1{
+    display: flex;
+    height: 91vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main3{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ท้าย*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 39vh;
+    background-color:rgb(232, 156, 49);
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/*ปุ่ม*/
+.btn_down{
+    width: 10vh;
+    height: 10vh;
+    margin: 2vh;
+    border: none;
+    border-radius: 2vh;
+    background-color:rgba(255, 255, 255, 0.467);
+    background-image: url("../asset/down-arrow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn_down:hover{
+    background-color:rgba(255, 255, 255, 1);
+}
+.btn_next{
+    width: 10vh;
+    height: 10vh;
+    margin: 2vh;
+    border: none;
+    border-radius: 2vh;
+    background-color:rgba(255, 255, 255, 0.467);
+    background-image: url("../asset/right-arrow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn_next:hover{
+    background-color:rgba(255, 255, 255, 1);
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+}
